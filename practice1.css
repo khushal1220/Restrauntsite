@@ -1,0 +1,333 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+.navbar{
+    display: flex;
+    /* align-items: center;
+    justify-content: center; */
+    position:sticky;
+    top: 0;
+    cursor: pointer;
+}
+.navele{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.452);
+    width:95%;
+    height: fit-content;
+}
+/* .navbar img{
+    width: 30px;
+} */
+.navbar ul{
+    display: flex;
+}
+.navbar ul li {
+    list-style: none;
+    cursor: pointer;
+    margin: 20px;
+    width: 50px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin-left: 30px;
+}
+.logocontainer{
+    width: 10%;
+    /* margin-bottom: 10px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.452);
+    border-bottom-right-radius:33%;
+    height: 138px;
+}
+.logo{
+    display: block;
+    width: 75%;
+    /* width: 5%; */
+    margin-top: 10px;
+    margin-left: 10px;
+    padding-right: 10px;
+    /* height: 5%; */
+}
+/* .background{
+    background: rgba(0,0,0,0.7) url("backpic.jpg") no-repeat center center/cover;
+    background-blend-mode: darken;
+    position: absolute;
+     opacity: 0.7; 
+    content: "";
+    height: fit-content;
+    /* width: 100%; 
+    /* z-index: -1; 
+} */
+.background{
+    background-position: 0px;
+    background: rgba(0,0,0,0.7) url("backpic.jpg") ;
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.backpics{
+    top: 0;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.7;
+    background-blend-mode: darken;
+}
+.main-box{
+    /* height: 159%; */
+    display: flex;
+    top: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    height: 100vh;
+    color: white;
+    margin-top: -10%;
+    margin-bottom: 3%;
+}
+
+.content-box{
+    margin: auto;
+    display: flex;
+    /* height: 500px; */
+    margin-top: 300px;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+    width: 50%;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    /* font-size: 25px */
+}
+.btn{
+    width: 100px;
+    background: none;
+    color: white;
+    border-color: white;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 4px;
+    height: 25px;
+    margin-top: 18px;
+    cursor: pointer;
+}
+.text-small {
+    font-size: 20px;
+}
+.text-big {
+    font-size: 40px;
+}
+.serv-box{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 400px; */
+    height: fit-content;
+    background-color: white;   
+}
+.box{
+    background-color: rgb(243 242 234);
+    border-style: solid;
+    border-width: 4px;
+    border-color: rgb(182, 39, 39);
+    border-radius:10px;
+    margin: 5%;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 15px;
+    width:20%;
+}
+.box-image{
+    width: 100px;
+}
+.boxcontainer{
+    display: flex;
+    flex-wrap: wrap;
+    width:75%;
+    /* margin: auto; */
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 300px; */
+}
+.client{
+    width:100%;
+    height: 229px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    /* background-color: #fff6ec; */
+    /* margin: auto; */
+    background:  rgba(0, 0, 0, 0.459) url("client\ background.jpg");    
+    background-size: cover;
+    background-blend-mode: darken;
+    position: absolute;
+    z-index: -1;
+}
+.clients-logo{
+    width:75%;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    margin: auto;
+    height:30%;
+}
+.client-img{
+    width: 50px;
+    margin: 5%;
+    margin-bottom: 30px;    
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    background-color: #f1f0ed;
+    background: rgba(0, 0, 0, 0.459) url("contact.jpg") no-repeat center center/cover;
+    background-blend-mode: darken;
+    justify-content: center;
+    align-items: center;
+    margin-top: 230px;
+}
+.footer input , .footer textarea{
+    margin:15px;
+    width: 578px
+}
+.contactheading{
+    margin-top: 10px;
+}
+.btn-sub{
+    color: white;
+    background-color: black;
+    width: 75px;
+}
+.Copyright{
+    text-align: center;
+    background-color: antiquewhite;
+}
+.main-box-content{
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.servicestext{
+    margin-top:30%
+}
+.contactus{
+    color: white;
+    margin-top: 33px;
+}
+#ContactUS{
+    color: white;
+}
+.burger{
+    display: none;
+    position:absolute;
+    cursor:pointer;
+    right: 5%;
+    top: 15px 
+}
+.line{
+    width:33px;
+    background-color:rgb(255, 0, 0);
+    height:4px;
+    margin: 3px 3px;
+}
+@media only screen and (max-width: 350px){
+    .main-box{
+        height: 65vh;
+    }
+}
+@media only screen and (max-width: 1096px){
+    .footer input , .footer textarea{
+        margin:15px;
+        width: 92%;
+    }
+    .burger{
+        display: block;
+    }
+    .text-small{
+        font-size: 10px;
+    }
+    .text-big{
+        font-size: 20px;
+    }
+    .navbar{
+        flex-direction: column;
+        height:20px;
+        transition: all 1s ease-out;
+    }
+    .navele{
+        flex-direction: column;
+        width: 100%;
+    }
+    .navbar ul li a{
+        margin-left:0;
+    }
+    .logocontainer{
+        width:100%;
+        border-radius: 0;
+    }
+    .logo{
+        width: 10%;
+    }
+    .navbar ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;        
+    }
+    .navbar ul li{
+        margin-left: 0px;
+        width: auto;
+        margin-bottom:20px;
+    }
+    .h-class{
+        height: 10px;
+    }
+    .v-class{
+        opacity: 0;
+    }
+    .box-image{
+        width: 97%;
+    }
+    .main-box{
+        height:50vh;
+    }
+    .box{
+        background-color: rgb(243 242 234);
+        border-style: solid;
+        border-width: 4px;
+        border-color: rgb(182, 39, 39);
+        border-radius: 10px;
+        margin: 0%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 14px;
+        width: 77%;
+        margin-bottom: 20px;
+    }
+    .boxcontainer{
+        flex-direction: column;
+        width: 100%;
+    }
+    .servicestext{
+        margin-bottom: 10px;
+    }
+}
